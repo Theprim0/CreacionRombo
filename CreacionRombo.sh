@@ -19,7 +19,7 @@ contador2=0
 let vueltas=parametro_introducido-1
 
 
-	 #Bucle de escribir parte superior
+	 #Bucle para escribir parte superior
 for (( contador=1 ; contador <= $parametro_introducido ; contador++ )); do
 	while (( contador2 < $parametro_introducido ));do
 		echo -n " "
@@ -31,7 +31,8 @@ for (( contador=1 ; contador <= $parametro_introducido ; contador++ )); do
 	let vueltas--
 done
 
-	 #Reseteamos variables
+	 #Reseteamos variables, aunque no haria falta ya que al principio
+	 #del script ya se inicializan
 #echo "corte"
 unset contador
 unset contador2
