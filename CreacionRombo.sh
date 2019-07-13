@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Script por Arturo Rivas
+# Script por Theprim0
 # GNU General Public License
 # Versión Pre-Aplha0.1
 
